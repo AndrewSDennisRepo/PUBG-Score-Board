@@ -4,13 +4,10 @@ import json
 
 from pubg_python import PUBG, Shard
 from chicken_dinner.pubgapi import PUBGCore, PUBG
+from key import key
 
-key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.\
-eyJqdGkiOiI5MGEwNzZlMC0xOWJkLTAxMzctYThiMy0wM\
-mY1ZGQ2M2ExMTUiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF\
-0IjoxNTUwOTQyNTY4LCJwdWIiOiJibHVlaG9sZSIsInRpdGx\
-lIjoicHViZyIsImFwcCI6ImZpbmFsY2lyY2xlIn0.cq48UFC6\
-qrH4dXW6uJSVZtRe_sx7yDmrUKNYCsJnq0c'
+
+key = key
 
 pubg = PUBG(key, "xbox-na")
 
